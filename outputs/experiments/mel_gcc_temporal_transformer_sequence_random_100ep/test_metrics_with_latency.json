@@ -1,0 +1,31 @@
+{
+  "loss": 0.004437823490946588,
+  "xyz_loss": 0.0043865456161683945,
+  "class_loss": 0.00010255570660193776,
+  "mse_x": 0.03833929700664727,
+  "mse_y": 0.14738114555198026,
+  "mse_z": 0.11825167989156332,
+  "mean_3d_error": 0.47568015879895315,
+  "classification_accuracy": 1.0,
+  "processed_forward_latency_ms_mean": 60.58226731751878,
+  "processed_forward_latency_ms_p50": 63.571898437203345,
+  "processed_forward_latency_ms_p95": 67.32010703126434,
+  "test_samples": 664,
+  "raw_sequence_to_decision_latency_ms_mean": 464.1160559980199,
+  "raw_sequence_to_decision_latency_ms_p50": 466.98434998688754,
+  "raw_sequence_to_decision_latency_ms_p95": 574.2737699925783,
+  "raw_latency_samples": 100,
+  "raw_audio_decode_seconds_total": 9.36309309999342,
+  "raw_audio_decode_seconds_by_drone": {
+    "Avata": 2.4749456999998074,
+    "M300": 1.7982725000183564,
+    "Mavic2": 1.7361493999778759,
+    "Mavic3": 1.4741351999982726,
+    "Pham4": 1.8795902999991085
+  },
+  "best_epoch": 100,
+  "model_name": "mel_gcc_temporal_transformer_sequence_random",
+  "parameters": 2381768,
+  "trainable_parameters": 2381768,
+  "model_size_mb_fp32": 9.085723876953125
+}

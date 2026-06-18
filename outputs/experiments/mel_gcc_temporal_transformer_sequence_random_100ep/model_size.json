@@ -1,0 +1,6 @@
+{
+  "model_name": "mel_gcc_temporal_transformer_sequence_random",
+  "parameters": 2381768,
+  "trainable_parameters": 2381768,
+  "model_size_mb_fp32": 9.085723876953125
+}

@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+.matplotlib/
+
+# Raw MMAUD / ROS/audio assets
+MMAUD_Drone/
+*.wav
+*.mp3
+*.bag
+
+# Generated feature caches
+outputs/mmaud_spectrograms_2s/
+outputs/experiments/gcc_phat_multitask_2s_weighted_100ep/features/
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Duplicate root copy; README uses docs/mel_gcc_transformer.png
+/mel_gcc_transformer.png

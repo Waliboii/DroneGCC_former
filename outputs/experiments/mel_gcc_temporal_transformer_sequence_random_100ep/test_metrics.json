@@ -1,0 +1,18 @@
+{
+  "mse_x": 0.03831553360424846,
+  "mse_y": 0.14739970521754528,
+  "mse_z": 0.11828440445733357,
+  "mae_x": 0.14975252783442117,
+  "mae_y": 0.2973688129919121,
+  "mae_z": 0.24205321360783405,
+  "mean_3d_error": 0.47569429299917565,
+  "classification_accuracy": 1.0,
+  "loss": 0.004437462019969721,
+  "xyz_loss": 0.004386183087635471,
+  "class_loss": 0.00010255786063604012,
+  "best_epoch": 100,
+  "model_name": "mel_gcc_temporal_transformer_sequence_random",
+  "parameters": 2381768,
+  "trainable_parameters": 2381768,
+  "model_size_mb_fp32": 9.085723876953125
+}

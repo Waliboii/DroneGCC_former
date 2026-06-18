@@ -1,0 +1,6 @@
+numpy
+torch
+matplotlib
+pillow
+sounddevice
+tqdm
