@@ -64,7 +64,6 @@ Model size: 9.09 MB fp32
 Best epoch: 100
 ```
 
-Important note: this best result uses a `sequence_random` split. That split is useful for architecture comparison, but neighboring overlapping temporal windows can appear across splits. For stricter generalization, use `blocked_random`; it is harder and usually produces worse results.
 
 ## Repository Layout
 
