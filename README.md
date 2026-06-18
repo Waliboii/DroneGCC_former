@@ -487,31 +487,6 @@ sqrt((x_pred - x_true)^2 + (y_pred - y_true)^2 + (z_pred - z_true)^2)
 
 So a mean 3D error of `0.4757 m` means the prediction is, on average, about 0.48 meters away from the ground-truth target position in 3D space.
 
-## GitHub Upload Notes
-
-The intended GitHub upload includes:
-
-```text
-README.md
-requirements.txt
-.gitignore
-docs/mel_gcc_transformer.png
-experiments/
-mmaud_audio_localization/
-scripts/
-outputs/experiments/mel_gcc_temporal_transformer_sequence_random_100ep/
-```
-
-The intended GitHub upload excludes:
-
-```text
-MMAUD_Drone/
-outputs/mmaud_spectrograms_2s/
-outputs/experiments/gcc_phat_multitask_2s_weighted_100ep/features/
-*.mp3
-*.wav
-*.bag
-```
 
 ## Citation / Dataset
 
@@ -520,3 +495,5 @@ This project is built around the MMAUD dataset from NTU ARIS:
 [https://github.com/ntu-aris/MMAUD](https://github.com/ntu-aris/MMAUD)
 
 Please follow the MMAUD authors' dataset license, citation requirements, and distribution rules when using or sharing the raw data.
+
+To cite specifically this work, details will be uploaded soon.
