@@ -130,8 +130,6 @@ outputs/experiments/gcc_phat_multitask_2s_weighted_100ep/features/
 *.bag
 ```
 
-These files can be regenerated from the MMAUD audio. If you want to distribute them, use a separate dataset artifact such as GitHub Releases, Hugging Face Dataset, Zenodo, Google Drive, or OneDrive.
-
 ## Setup On Windows
 
 Open PowerShell in the repository folder:
